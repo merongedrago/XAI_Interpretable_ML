@@ -13,6 +13,6 @@ The jupyter notebook explores the factors that contribute to customer churn (cus
 If unable to access the csv file as it is local. Replace the snippet of code importing the dataset with the following as to be able to download the data from Kaggle
 ```path = kagglehub.dataset_download("blastchar/telco-customer-churn")
 data = pd.read_csv(path +'/WA_Fn-UseC_-Telco-Customer-Churn.csv') 
-data.head()```
+data.head()
 
 Another alternative could also be cloning this repository locally and running the jupyter notebook.
